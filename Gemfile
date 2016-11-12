@@ -26,3 +26,7 @@ end
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'activerecord-import'
+gem 'rb-readline'
+gem 'pry-rails'
