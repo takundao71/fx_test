@@ -15,7 +15,7 @@ EUR/USD
 )
 
 currency_pairs.each do |currency_pair|
-  dir = "/Users/takuhirofujikawa/Desktop/fx_hour_data/#{currency_pair.gsub('/', '-')}"
+  dir = "/Users/takuhirofujikawa/Desktop/fx_hour_data_for_izanami/#{currency_pair.gsub('/', '-')}"
   Dir.mkdir(dir) rescue nil
 
   (0..23).each do |hour|
